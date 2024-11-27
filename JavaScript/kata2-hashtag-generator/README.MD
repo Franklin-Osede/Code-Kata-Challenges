@@ -92,18 +92,6 @@ Check if the resulting hashtag exceeds 140 characters. If it does, return `false
 
 ---
 
-## Final Algorithm
-
-1. Trim the input.
-2. Validate if the input is empty after trimming.
-3. Split the input into words.
-4. Capitalize the first letter of each word.
-5. Join the words into a single string and prepend `#`.
-6. Check the length of the resulting hashtag.
-7. Return the hashtag or `false` based on the validation.
-
----
-
 ## Examples Table
 
 | Input                               | Expected Output       |
