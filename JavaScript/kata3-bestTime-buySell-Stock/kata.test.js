@@ -1,4 +1,4 @@
-const maxProfit = require('./maxProfit'); // Import the function to test
+const maxProfit = require('./kata'); // Import the function to test
 
 // Test cases for maxProfit
 describe('maxProfit', () => {
